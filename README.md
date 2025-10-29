@@ -87,53 +87,9 @@
 
     <div class="buttons">
       <div class="button" onclick="toggleInfo()">ІНФОРМАЦІЯ</div>
-<div id="info-box" style="display:none; color:white; text-align:center; margin-top:20px;"><h2>Про сервер</h2><p>Наш RP сервер створено для реалістичної гри, дотримання правил та чесного спілкування.</p>
-</div>
 
-      <div class="button">RP ПРОЦЕС</div>
-    </div>
-
-    <details class="card"><summary>1. Образа адмiнiстрації чи граравців</summary><p>Булінг, чи ще засоби ображання заборонені покарання Депортація на 4 дні</p></details>
-    <details class="card"><summary>2. ПДР</summary><p>Дотримуйся правил дорожнього руху, як у реальному житті. За порушення передбачене RP-покарання</p></details>
-    <details class="card"><summary>3. Використання читів чи сторонніх ПО</summary><p>Депортація назавжди</p></details>
-    <details class="card"><summary>4. Використання багів</summary><p>На сервері забороненно використовувати багі чи недороботки покарання Депортація на 2 дні</p></details>
-    <details class="card"><summary>5. Атакування інших гравців без причини</summary><p>1. DM (Deathmatch) Значение: вбивство гравця без RP-причини.
-Приклад: ти просто побачив людину на вулиці і відкрив вогонь. 2. RDM (Random Deathmatch) Значение: рандомне вбивство без мотивації.
-Від DM відрізняється тим, що це зроблено без будь-якого контексту RP. 3. VDM (Vehicle Deathmatch)
-Значение: наїзд на гравців автомобілем без RP-причини.
-Приклад: ти сів в авто і почав давити всіх підряд.
-
-1. Metagaming
-Значення: використання інформації з-за меж гри (з Discord, стріму тощо) у грі.
-Приклад: ти дізнався в Discord, де знаходиться гравець, і приїхав туди RP-вбивати.
-
-2. Powergaming
-Значение: використання нереалістичних RP-дій або "несправедливих" RP-сценаріїв.
-Приклад: ти RP’ш, що твій персонаж безсмертний, або що він поглинає кулі.
-
-
-3. FailRP
-Значение: дії, що не мають сенсу в контексті реального життя або RP-ситуації.
-Приклад: поліцейський танцює під час погоні, або гравець тікає з кайданками.
-
-4. Combat Logging
-Значение: вихід з гри під час бою або RP-ситуації.
-Покарання: депортація на 1+ днів, іноді бан.
-
-5. Cop Baiting
-Значение: спеціальне провокування поліції, щоб влаштувати погоню/стрілянину без причин.
-
-6. Revenge Kill
-Значение: вбивство гравця в помсту після респавну, що порушує правила "нового життя".
-
-7. Breaking NLR (New Life Rule)
-Значение: порушення правила нового життя — після смерті персонаж не пам’ятає попередні події.
-Приклад: після смерті повертаєшся на місце і продовжуєш конфлікт.Депортація на 12 годин</p></details>
-    <details class="card"><summary>6. Перешкодження діяльності служб</summary><p>
-Депортація на 1 день</p></details>
-    <details class="card"><summary>7. Фальшиві виклики служб</summary><p><span class="fine">заборонено викликати поліцію, пожежних або медиків без RP-причини. Штраф 8000 €</span></p></details>
     <details class="card"><summary>8.1.0</summary><p>Оскорбления администрации и игроков (мут на 15мин)</p></details>
-    <details class="card"><summary>9. 1.1 </summary><p>Разпостранение читов и т.д (мут на 30мин)</p></details>
+    <details class="card"><summary>9. 1.1</summary><p>Разпостранение читов и т.д (мут на 30мин)</p></details>
     <details class="card"><summary>10. Пропаганда</summary><p> заборонено поширювати політичні, екстремістські чи провокаційні ідеї. Депортація на 4 дні</p></details>
     <details class="card"><summary>11. Реклама чи спам</summary><p> заборонено рекламувати інші сервіси, флудити або спамити. Депортація на 4 дні</p></details>
     <details class="card"><summary>12. Завеликий скін</summary><p>не можна використовувати скіни, що заважають геймплею. Депортація на 2 дні</p></details>
@@ -145,8 +101,6 @@
     <details class="card"><summary>18. Взятка або її пропозиція правоохоронцям</summary><p><span class="fine">заборонено давати хабар службовцям. Штраф 10000 €</span></p></details>
     
     
-  <a href="https://ogur4ik12.github.io/serverrules02/" target="_blank" style="text-decoration: none; color: white; font-size: 20px; background-color: orange; padding: 10px 20px; border-radius: 5px; margin-right: 10px;">
-   Пункт 1.
   </a>
   <a href="https://t.me/LVIV_EH" target="_blank" style="text-decoration: none; color: white; font-size: 20px; background-color: #00aaff; padding: 10px 20px; border-radius: 5px;">
     НАШ ТГК
