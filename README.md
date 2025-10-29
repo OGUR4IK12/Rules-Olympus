@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="uk">
+
+<html lang="ru">
 <head>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
   <meta charset="UTF-8">
-  <title>ПРАВИЛА СЕРВЕРА LVIV RP </title>
+  <title>ПРАВИЛА OLYMPUS </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -132,8 +132,8 @@
     <details class="card"><summary>6. Перешкодження діяльності служб</summary><p>
 Депортація на 1 день</p></details>
     <details class="card"><summary>7. Фальшиві виклики служб</summary><p><span class="fine">заборонено викликати поліцію, пожежних або медиків без RP-причини. Штраф 8000 €</span></p></details>
-    <details class="card"><summary>8.1.0 </summary><p> Оскорбления администрации и игроков (мут на 15мин) </p></details>
-    <details class="card"><summary>9. Блокування виїзду з держслужб</summary><p> не можна заважати руху службових машин. Покарання: кік.</p></details>
+    <details class="card"><summary>8.1.0</summary><p>Оскорбления администрации и игроков (мут на 15мин)</p></details>
+    <details class="card"><summary>9. 1.1 </summary><p>Разпостранение читов и т.д (мут на 30мин)</p></details>
     <details class="card"><summary>10. Пропаганда</summary><p> заборонено поширювати політичні, екстремістські чи провокаційні ідеї. Депортація на 4 дні</p></details>
     <details class="card"><summary>11. Реклама чи спам</summary><p> заборонено рекламувати інші сервіси, флудити або спамити. Депортація на 4 дні</p></details>
     <details class="card"><summary>12. Завеликий скін</summary><p>не можна використовувати скіни, що заважають геймплею. Депортація на 2 дні</p></details>
@@ -143,11 +143,7 @@
     <details class="card"><summary>16. Участь у злочинах або допомога порушникам</summary><p><span class="fine">Штраф 5000 €</span></p></details>
     <details class="card"><summary>17. Уникнення покарань або несплата штрафів</summary><p>Депортація на 3 дні</p></details>
     <details class="card"><summary>18. Взятка або її пропозиція правоохоронцям</summary><p><span class="fine">заборонено давати хабар службовцям. Штраф 10000 €</span></p></details>
-    <details class="card"><summary>19. Нон РП поведінка</summary><p> потрібно грати свою роль відповідно до ситуації. Депортація на 10 днів або назавжди</p></details>
-    <details class="card"><summary>20. Порушення службових обов’язків</summary><p><span class="fine">кожен співробітник має дотримуватись правил. Штраф 5000 €</span></p></details>
-    <details class="card"><summary>21. Суд</summary><p>Ведеться на 3 поверсі пожежної станції</p></details>
-    <details class="card"><summary>22. Посадка зека без суду</summary><p><span class="fine">Штраф 9000 € та звiльнення з праці</span></p></details>
-    <details class="card"><summary>23. Якщо судді немає</summary><p>Потрібно запитати у в'язня: чекати 5 або 10 хвилин</p></details>
+    
     
   <a href="https://ogur4ik12.github.io/serverrules02/" target="_blank" style="text-decoration: none; color: white; font-size: 20px; background-color: orange; padding: 10px 20px; border-radius: 5px; margin-right: 10px;">
    Пункт 1.
@@ -158,10 +154,9 @@
 </div>
 
 
-   <h1> © Створено менеджером LiMoN4ick1510. LVIV RP. Всі права захищені.</h1>
-    <footer>Будь-яке копіювання, поширення чи використання матеріалів цього сайту без письмового дозволу правовласника заборонено.</</footer>
-       <footer>Менеджер Tedi_Del20</</footer>
-           <footer>Оновлено 20:30 10.05.2025</</footer>
-  </div>
+   <h1> © Зделано создатлем Wizixc1. Project OLYMPUS. Ве права защещены.
+    <footer>Любое распространение, или использование материалов этого сайта без грамотного разрешения правообладателя   ЗАПРЕЩЕНО.</</footer>
+       <footer>Wizixc1</</footer>
+           <footer>Обновленно 14:58 29.10.2025</</footer>
 </body>
 </html>
