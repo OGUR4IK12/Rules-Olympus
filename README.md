@@ -93,10 +93,10 @@
       <div class="button">RP ПРОЦЕС</div>
     </div>
 
-  <details class="card"><summary>1. 1.1 </summary><p>Оскорбления администрации и также игроков (мут 20мин)</p></details>
-    <details class="card"><summary>2. 1.2</summary><p>Распостронения читов, ПО и т.д (бан 1д)</p></details>
-    <details class="card"><summary>3. 1.3</summary><p>распостронение казино, рекламы и т.д (мут 40мин)</p></details>
-    <details class="card"><summary>4. 1.4</summary><p>Использевание багов (бан 4д)</p></details>
+  <details class="card"><summary>1.1 </summary><p>Оскорбления администрации и также игроков (мут 20мин)</p></details>
+    <details class="card"><summary>1.2</summary><p>Распостронения читов, ПО и т.д (бан 1д)</p></details>
+    <details class="card"><summary>1.3</summary><p>распостронение казино, рекламы и т.д (мут 40мин)</p></details>
+    <details class="card"><summary>1.4</summary><p>Использевание багов (бан 4д)</p></details>
 
 
     
