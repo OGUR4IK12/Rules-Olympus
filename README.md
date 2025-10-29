@@ -93,10 +93,11 @@
       <div class="button">RP ПРОЦЕС</div>
     </div>
 
-    <details class="card"><summary>1. Образа адмiнiстрації чи граравців</summary><p>Булінг, чи ще засоби ображання заборонені покарання Депортація на 4 дні</p></details>
-    <details class="card"><summary>2. ПДР</summary><p>Дотримуйся правил дорожнього руху, як у реальному житті. За порушення передбачене RP-покарання</p></details>
-    <details class="card"><summary>3. Використання читів чи сторонніх ПО</summary><p>Депортація назавжди</p></details>
-    <details class="card"><summary>4. Використання багів</summary><p>На сервері забороненно використовувати багі чи недороботки покарання Депортація на 2 дні</p></details>
+  <details class="card"><summary>1. 1.1 </summary><p>Оскорбления администрации и также игроков (мут 20мин)</p></details>
+    <details class="card"><summary>2. 1.2</summary><p>Распостронения читов, ПО и т.д (бан 1д)</p></details>
+    <details class="card"><summary>3. 1.3</summary><p>распостронение казино, рекламы и т.д (мут 40мин)</p></details>
+    <details class="card"><summary>4. 1.4</summary><p>Использевание багов (бан 4д)</p></details>
+
 
     
   <a href="https://ogur4ik12.github.io/serverrules02/" target="_blank" style="text-decoration: none; color: white; font-size: 20px; background-color: orange; padding: 10px 20px; border-radius: 5px; margin-right: 10px;">
