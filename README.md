@@ -86,6 +86,7 @@
     <h1>ПРАВИЛА СЕРВЕРА</h1>
     
     <div class="buttons">
+
       <div class="button" onclick="toggleInfo()">ІНФОРМАЦІЯ</div>
       
     <details class="card"><summary>1.1.0</summary><p>Оскорбления администрации и игроков (мут на 15мин)</p></details>
@@ -108,7 +109,7 @@
 </div>
 
 
-   <h1> © Зделано создатлем Wizixc1. Project OLYMPUS. Ве права защещены.
+   <h1> © Зделано создатлем Wizixc1. Project OLYMPUS. Все права защищены.
     <footer>Любое распространение, или использование материалов этого сайта без грамотного разрешения правообладателя   ЗАПРЕЩЕНО.</footer>
        <footer>Wizixc1</footer>
            <footer>Обновленно 14:58 29.10.2025</footer>
