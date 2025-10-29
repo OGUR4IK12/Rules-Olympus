@@ -97,7 +97,7 @@
     <details class="card"><summary>2. ПДР</summary><p>Дотримуйся правил дорожнього руху, як у реальному житті. За порушення передбачене RP-покарання</p></details>
     <details class="card"><summary>3. Використання читів чи сторонніх ПО</summary><p>Депортація назавжди</p></details>
     <details class="card"><summary>4. Використання багів</summary><p>На сервері забороненно використовувати багі чи недороботки покарання Депортація на 2 дні</p></details>
-    <details class="card"><summary>5. Атакування інших гравців без причини</summary><p>1. DM (Deathmatch) Значение: вбивство гравця без RP-причини.
+
     
   <a href="https://ogur4ik12.github.io/serverrules02/" target="_blank" style="text-decoration: none; color: white; font-size: 20px; background-color: orange; padding: 10px 20px; border-radius: 5px; margin-right: 10px;">
    Пункт 1.
