@@ -88,7 +88,6 @@
     <div class="buttons">
 
       <div class="button" onclick="toggleInfo()">ІНФОРМАЦІЯ</div>
-      
     <details class="card"><summary>1.1.0</summary><p>Оскорбления администрации и игроков (мут на 15мин)</p></details>
     <details class="card"><summary>2. 1.1</summary><p>Разпостранение читов и т.д (мут на 30мин)</p></details>
     <details class="card"><summary>3. </summary><p> заборонено поширювати політичні, екстремістські чи провокаційні ідеї. Депортація на 4 дні</p></details>
