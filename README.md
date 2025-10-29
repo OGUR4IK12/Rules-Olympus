@@ -13,32 +13,27 @@
       background-size: cover;
       color: white;
     }
-
     .overlay {
       background: rgba(0, 0, 0, 0.6);
       padding: 40px 20px;
       min-height: 100vh;
     }
-    
     h1 {
       font-size: 36px;
       margin-bottom: 10px;
       text-align: center;
     }
-
     h2 {
       font-size: 20px;
       color: #ccc;
       text-align: center;
     }
-
     .buttons {
       display: flex;
       justify-content: center;
       gap: 20px;
       margin: 20px 0;
     }
-
     .button {
       background-color: #444;
       padding: 10px 20px;
@@ -47,7 +42,6 @@
       font-weight: bold;
       cursor: pointer;
     }
-
     details.card {
       background: linear-gradient(to bottom, #fff0e0, #ffe0cc);
       color: black;
@@ -60,18 +54,15 @@
       margin: 15px auto;
       cursor: pointer;
     }
-
     details.card summary {
       font-weight: bold;
       font-size: 18px;
       cursor: pointer;
     }
-
     details.card p {
       margin-top: 10px;
       font-weight: normal;
     }
-
     footer {
       margin-top: 40px;
       font-size: 12px;
@@ -84,9 +75,7 @@
   <div class="overlay">
       <h1>Пункт 1.</h1>
     <h1>ПРАВИЛА СЕРВЕРА</h1>
-    
     <div class="buttons">
-
       <div class="button" onclick="toggleInfo()">ІНФОРМАЦІЯ</div>
     <details class="card"><summary>1.1.0</summary><p>Оскорбления администрации и игроков (мут на 15мин)</p></details>
     <details class="card"><summary>2. 1.1</summary><p>Разпостранение читов и т.д (мут на 30мин)</p></details>
