@@ -98,26 +98,6 @@
     <details class="card"><summary>3. Використання читів чи сторонніх ПО</summary><p>Депортація назавжди</p></details>
     <details class="card"><summary>4. Використання багів</summary><p>На сервері забороненно використовувати багі чи недороботки покарання Депортація на 2 дні</p></details>
     <details class="card"><summary>5. Атакування інших гравців без причини</summary><p>1. DM (Deathmatch) Значение: вбивство гравця без RP-причини.
-
-    <details class="card"><summary>6. Перешкодження діяльності служб</summary><p>
-Депортація на 1 день</p></details>
-    <details class="card"><summary>7. Фальшиві виклики служб</summary><p><span class="fine">заборонено викликати поліцію, пожежних або медиків без RP-причини. Штраф 8000 €</span></p></details>
-    <details class="card"><summary>8. ПВП у зеленій зоні</summary><p> заборонено стріляти чи бити гравців у зеленій зоні. Депортація на 2 дні</p></details>
-    <details class="card"><summary>9. Блокування виїзду з держслужб</summary><p> не можна заважати руху службових машин. Покарання: кік.</p></details>
-    <details class="card"><summary>10. Пропаганда</summary><p> заборонено поширювати політичні, екстремістські чи провокаційні ідеї. Депортація на 4 дні</p></details>
-    <details class="card"><summary>11. Реклама чи спам</summary><p> заборонено рекламувати інші сервіси, флудити або спамити. Депортація на 4 дні</p></details>
-    <details class="card"><summary>12. Завеликий скін</summary><p>не можна використовувати скіни, що заважають геймплею. Депортація на 2 дні</p></details>
-    <details class="card"><summary>13. Зелена зона</summary><p>Це поліцейська ділянка, пожежна станція та суд</p></details>
-    <details class="card"><summary>14. Незнання правил гри</summary><p>не звільняє від відповідальності. Депортація на 1 день</p></details>
-    <details class="card"><summary>15. Вихід з сервера під час RP-ситуації </summary><p>Заборонено Депортація на 1 день</p></details>
-    <details class="card"><summary>16. Участь у злочинах або допомога порушникам</summary><p><span class="fine">Штраф 5000 €</span></p></details>
-    <details class="card"><summary>17. Уникнення покарань або несплата штрафів</summary><p>Депортація на 3 дні</p></details>
-    <details class="card"><summary>18. Взятка або її пропозиція правоохоронцям</summary><p><span class="fine">заборонено давати хабар службовцям. Штраф 10000 €</span></p></details>
-    <details class="card"><summary>19. Нон РП поведінка</summary><p> потрібно грати свою роль відповідно до ситуації. Депортація на 10 днів або назавжди</p></details>
-    <details class="card"><summary>20. Порушення службових обов’язків</summary><p><span class="fine">кожен співробітник має дотримуватись правил. Штраф 5000 €</span></p></details>
-    <details class="card"><summary>21. Суд</summary><p>Ведеться на 3 поверсі пожежної станції</p></details>
-    <details class="card"><summary>22. Посадка зека без суду</summary><p><span class="fine">Штраф 9000 € та звiльнення з праці</span></p></details>
-    <details class="card"><summary>23. Якщо судді немає</summary><p>Потрібно запитати у в'язня: чекати 5 або 10 хвилин</p></details>
     
   <a href="https://ogur4ik12.github.io/serverrules02/" target="_blank" style="text-decoration: none; color: white; font-size: 20px; background-color: orange; padding: 10px 20px; border-radius: 5px; margin-right: 10px;">
    Пункт 1.
