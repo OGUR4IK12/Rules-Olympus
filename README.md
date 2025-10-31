@@ -1,115 +1,96 @@
-<!DOCTYPE html>
-<html lang="uk">
+<!doctype html>
+<html lang="ru">
 <head>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-  <meta charset="UTF-8">
-  <title>ПРАВИЛА СЕРВЕРА LVIV RP </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project_Olympus — Правила сервера</title>
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: url(https://pbs.twimg.com/media/F8a5aqAXcAAMEAh.jpg:large) no-repeat center center fixed;
-      background-size: cover;
-      color: white;
+    :root{
+      --bg:#05060a;
+      --panel:#0b0d12cc;
+      --neon: #b7ff3a; /* лаймовый */
+      --neon-weak: rgba(183,255,58,0.15);
+      --glass: rgba(255,255,255,0.02);
+      --accent: linear-gradient(90deg, rgba(183,255,58,0.12), rgba(255,255,58,0.05));
+      --radius:16px;
+      --shadow: 0 6px 30px rgba(0,0,0,0.7), 0 0 30px rgba(183,255,58,0.06);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      min-height:100vh;
+      background: radial-gradient(800px 400px at 10% 10%, rgba(24,26,28,0.6), transparent),
+                  radial-gradient(600px 300px at 90% 90%, rgba(11,13,18,0.6), transparent),
+                  var(--bg);
+      color:#dfe6d0;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:32px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
     }
 
-    .overlay {
-      background: rgba(0, 0, 0, 0.6);
-      padding: 40px 20px;
-      min-height: 100vh;
+    .container{
+      width:100%;
+      max-width:980px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:24px;
+      padding:28px;
+      box-shadow:var(--shadow);
+      border:1px solid rgba(183,255,58,0.08);
+      position:relative;
+      overflow:hidden;
+      backdrop-filter: blur(6px) saturate(120%);
     }
 
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-      text-align: center;
+    header{
+      display:flex;
+      gap:16px;
+      align-items:center;
+      margin-bottom:18px;
+    }
+    .logo{
+      width:64px;height:64px;border-radius:12px;
+      background: conic-gradient(from 180deg at 50% 50%, rgba(183,255,58,0.18), rgba(255,255,58,0.05));
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:0 6px 18px rgba(183,255,58,0.06) inset;
+      border:1px solid rgba(183,255,58,0.12);
+      flex:0 0 64px;
+    }
+    .logo h1{font-size:18px;margin:0;color:var(--neon);text-shadow:0 0 10px rgba(183,255,58,0.35)}
+
+    .title{
+      display:flex;flex-direction:column;gap:4px;
+    }
+    .title .name{font-size:20px;color:var(--neon);letter-spacing:0.6px}
+    .title .sub{font-size:12px;color:rgba(223,230,208,0.6)}
+
+    .rules-wrap{
+      display:grid;grid-template-columns: 1fr;gap:12px;
     }
 
-    h2 {
-      font-size: 20px;
-      color: #ccc;
-      text-align: center;
+    /* Accordion */
+    .rule{
+      background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.015));
+      border-radius:14px;padding:12px;border:1px solid rgba(183,255,58,0.06);
+      display:flex;gap:12px;align-items:flex-start;overflow:hidden;
     }
-
-    .buttons {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin: 20px 0;
+    .rule .left{
+      width:64px;flex:0 0 64px;display:flex;flex-direction:column;align-items:center;
     }
-
-    .button {
-      background-color: #444;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-transform: uppercase;
-      font-weight: bold;
-      cursor: pointer;
+    .rule .num{
+      background:linear-gradient(180deg, rgba(183,255,58,0.12), rgba(183,255,58,0.06));
+      border-radius:10px;padding:8px 10px;font-weight:700;color:var(--neon);
+      box-shadow:0 6px 18px rgba(183,255,58,0.04);
+      text-shadow:0 0 8px rgba(183,255,58,0.12);
     }
+    .rule .titleline{font-weight:600;margin:0 0 6px 0}
+    .rule .desc{color:rgba(223,230,208,0.85);margin:0}
 
-    details.card {
-      background: linear-gradient(to bottom, #fff0e0, #ffe0cc);
-      color: black;
-      padding: 20px;
-      width: 90%;
-      max-width: 700px;
-      border-radius: 15px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-      font-size: 16px;
-      margin: 15px auto;
-      cursor: pointer;
-    }
-
-    details.card summary {
-      font-weight: bold;
-      font-size: 18px;
-      cursor: pointer;
-    }
-
-    details.card p {
-      margin-top: 10px;
-      font-weight: normal;
-    }
-
-    footer {
-      margin-top: 40px;
-      font-size: 12px;
-      color: #aaa;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <div class="overlay">
-      <h1>Пункт 1.</h1>
-    <h1>ПРАВИЛА СЕРВЕРА</h1>
-
-    <div class="buttons">
-      <div class="button" onclick="toggleInfo()">ІНФОРМАЦІЯ</div>
-<div id="info-box" style="display:none; color:white; text-align:center; margin-top:20px;"><h2>Про сервер</h2><p>Наш RP сервер створено для реалістичної гри, дотримання правил та чесного спілкування.</p>
-</div>
-
-      <div class="button">RP ПРОЦЕС</div>
-    </div>
-
-  <details class="card"><summary>1.1 </summary><p>Оскорбления администрации и также игроков (мут 20мин)</p></details>
-    <details class="card"><summary>1.2</summary><p>Распостронения читов, ПО и т.д (бан 1д)</p></details>
-    <details class="card"><summary>1.3</summary><p>распостронение казино, рекламы и т.д (мут 40мин)</p></details>
-    <details class="card"><summary>1.4</summary><p>Использевание багов (бан 4д)</p></details>
-
-
-    
-  <a href="https://ogur4ik12.github.io/serverrules02/" target="_blank" style="text-decoration: none; color: white; font-size: 20px; background-color: orange; padding: 10px 20px; border-radius: 5px; margin-right: 10px;">
-   Пункт 1.
-  </a>
-  <a href="https://t.me/LVIV_EH" target="_blank" style="text-decoration: none; color: white; font-size: 20px; background-color: #00aaff; padding: 10px 20px; border-radius: 5px;">
-    НАШ ТГК
-  </a>
-</div>
-
-
-   <h1> © Зделано владельцом. Project_OLYMPUS. Все права защищены.</h1>
-    <footer>Любое копирование, распространение или использование материалов этого сайта без письменного разрешения правообладателя запрещено.</footer>
-       <footer>Владелец Wizixc1</footer>
-           <footer>Обновлено 15:59 10.10.2025</footer>
+    .rule button.toggle{
+      all:unset;cursor:pointer;margin-left:auto;padding:8px;border-radius:10px;
+      display:flex;align-items:center;gap:8px;font-weight:700;color:var(--neon);
+      background:transparent;border:1px solid
