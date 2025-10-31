@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
 <meta charset="utf-8" />
@@ -311,6 +310,12 @@ footer{display:flex;flex-direction:column;gap:6px;margin-top:18px;border-top:1px
     });
   });
 
+  // Показываем правила сразу при загрузке
+  document.getElementById('info').style.display = 'none';
+  const rulesSection = document.getElementById('rules-section');
+  rulesSection.style.display = 'block';
+  rulesSection.scrollIntoView({behavior:'smooth'});
+
   // Открыть первое правило по умолчанию
   const first = document.querySelector('.card[data-i="1"]');
   if(first){
@@ -325,12 +330,12 @@ footer{display:flex;flex-direction:column;gap:6px;margin-top:18px;border-top:1px
   // Кнопки сверху
   function showInfo(){
     document.getElementById('info').style.display='block';
-    document.getElementById('rules-section').style.display='none';
+    rulesSection.style.display='none';
   }
   function showRules(){
     document.getElementById('info').style.display='none';
-    document.getElementById('rules-section').style.display='block';
-    document.getElementById('rules-section').scrollIntoView({behavior:'smooth'});
+    rulesSection.style.display='block';
+    rulesSection.scrollIntoView({behavior:'smooth'});
   }
   function openTelegram(){
     window.open('https://t.me/Olympus_Project2025', '_blank');
@@ -344,5 +349,3 @@ footer{display:flex;flex-direction:column;gap:6px;margin-top:18px;border-top:1px
     });
   });
 </script>
-</body>
-</html>
