@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Project_Olympus — Правила сервера</title>
+<title>Project_Olympus — Правила сервера (Нажмите  на кнопку *ПРАВИЛА*)</title>
 <link rel="icon" href="favicon.ico" type="image/x-icon">
 <style>
 :root{
@@ -291,9 +291,10 @@ footer{display:flex;flex-direction:column;gap:6px;margin-top:18px;border-top:1px
   <footer>
     <div class="footer-main">
       <div class="creator">© 2025 Project_Olympus — Создатель: Wizixc1 (Александ.К.С)</div>
-      <div class="rights">Все права защищены. Любая копировка правил запрещена.</div>
+      <div class="rights">Все права защищены. Любая копировка правил запрещена без согласия владельца.</div>
     </div>
     <div class="small">Обновлено: 31.10.2025</div>
+     <div class="small">Уведомление: Project_Olympus не связан с Mojang или Microsoft. Все права на игры и логотипы принадлежат их владельцам.</div>
   </footer>
 </div>
 
