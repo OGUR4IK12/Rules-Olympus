@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="ru">
 <head>
 <meta charset="utf-8" />
@@ -137,7 +136,7 @@
       <div class="logo" aria-hidden="true"><h1 style="font-size:18px;margin:0">PO</h1></div>
       <div class="title">
         <div id="title" class="name">Project_Olympus — Правила сервера</div>
-        <div class="sub">Создатель: Wizixc</div>
+        <div class="sub">Создатель: Wizixc1</div>
       </div>
     </header>
 
@@ -149,7 +148,7 @@
 
     <div id="info" style="display:block;margin-bottom:14px">
       <div style="padding:12px;border-radius:12px;background:linear-gradient(90deg, rgba(62,240,255,0.03), rgba(183,255,58,0.03));border:1px solid rgba(62,240,255,0.06);">
-        <strong>О сервере:</strong> Project_Olympus — это дружелюбный майнкрафт-сервер с упором на честную игру и уважение. Следуйте правилам и получайте удовольствие!
+        <strong>О сервере:</strong> Project_Olympus — это дружелюбный майнкрафт-сервер с упором на честную игру и уважение. Следуйте правилам и получайте удовольствие от геймплея!
       </div>
     </div>
 
@@ -185,22 +184,8 @@
         </div>
       </article>
 
-      <!-- Rule 3 -->
-      <article class="card" data-i="3">
-        <div class="head">
-          <div class="num">3</div>
-          <div class="meta">
-            <div class="ttl">No grief — уважение к постройкам</div>
-            <div class="short">Нельзя ломать или портить чужие постройки без разрешения.</div>
-          </div>
-          <button class="toggle" aria-expanded="false">Развернуть ▾</button>
-        </div>
-        <div class="detail" id="d-3">
-          <p>Разрушение чужой собственности, кражи и саботаж караются восстановлением постройки за счёт нарушителя и баном/депортацией при повторе.</p>
-        </div>
-      </article>
 
-      <!-- Rule 4 -->
+      <!-- Rule 3 -->
       <article class="card" data-i="4">
         <div class="head">
           <div class="num">4</div>
@@ -215,7 +200,7 @@
         </div>
       </article>
 
-      <!-- Rule 5 -->
+      <!-- Rule 4 -->
       <article class="card" data-i="5">
         <div class="head">
           <div class="num">5</div>
@@ -230,7 +215,7 @@
         </div>
       </article>
 
-      <!-- Rule 6 -->
+      <!-- Rule 5 -->
       <article class="card" data-i="6">
         <div class="head">
           <div class="num">6</div>
@@ -245,7 +230,7 @@
         </div>
       </article>
 
-      <!-- Rule 7 -->
+      <!-- Rule 6-->
       <article class="card" data-i="7">
         <div class="head">
           <div class="num">7</div>
@@ -260,7 +245,7 @@
         </div>
       </article>
 
-      <!-- Rule 8 -->
+      <!-- Rule 7 -->
       <article class="card" data-i="8">
         <div class="head">
           <div class="num">8</div>
@@ -275,7 +260,7 @@
         </div>
       </article>
 
-      <!-- Rule 9 -->
+      <!-- Rule 8 -->
       <article class="card" data-i="9">
         <div class="head">
           <div class="num">9</div>
@@ -309,10 +294,10 @@
 
     <footer>
       <div class="footer-main">
-        <div class="creator">© Project_Olympus — Создатель: Wizixc</div>
+        <div class="creator">© 2025 Project_Olympus — Создатель: Wizixc1 (Александ.К.С)</div>
         <div class="rights">Все права защищены. Любая копировка правил запрещена.</div>
       </div>
-      <div class="small">Обновлено: <!-- вставьте дату --> </div>
+      <div class="small">Обновлено: <!--31.10.2025 --> </div>
     </footer>
   </div>
 
@@ -348,12 +333,8 @@
     document.getElementById('info').style.display = 'block';
     document.getElementById('rules-section').scrollIntoView({behavior:'smooth',block:'start'});
   }
-  function showRules(){
-    document.getElementById('info').style.display = 'none';
-    document.querySelector('.wrap').scrollIntoView({behavior:'smooth'});
-  }
   function openTelegram(){
-    window.open('https://t.me/LVIV_EH','_blank');
+    window.open(https://t.me/Olympus_Project2025);
   }
 
   // accessibility keyboard support
