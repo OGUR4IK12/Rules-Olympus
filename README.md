@@ -220,3 +220,149 @@
         <div class="head">
           <div class="num">5</div>
           <div class="meta">
+            <div class="ttl">Честная торговля и обмены</div>
+            <div class="short">Мошенничество на торговле запрещено.</div>
+          </div>
+          <button class="toggle" aria-expanded="false">Развернуть ▾</button>
+        </div>
+        <div class="detail" id="d-5">
+          <p>Обман в торговле, фейки-предоплаты и мошенничество караются компенсацией пострадавшему и санкциями против нарушителя.</p>
+        </div>
+      </article>
+
+      <!-- Rule 6 -->
+      <article class="card" data-i="6">
+        <div class="head">
+          <div class="num">6</div>
+          <div class="meta">
+            <div class="ttl">Никакой рекламы и спама</div>
+            <div class="short">Запрещена реклама других серверов, фальшивая реклама и спам в чатах.</div>
+          </div>
+          <button class="toggle" aria-expanded="false">Развернуть ▾</button>
+        </div>
+        <div class="detail" id="d-6">
+          <p>Реклама без разрешения — кик/депортация. Повторный спам может привести к долгому бану.</p>
+        </div>
+      </article>
+
+      <!-- Rule 7 -->
+      <article class="card" data-i="7">
+        <div class="head">
+          <div class="num">7</div>
+          <div class="meta">
+            <div class="ttl">Нельзя выдавать себя за администрацию</div>
+            <div class="short">Имитация модераторов/админов запрещена.</div>
+          </div>
+          <button class="toggle" aria-expanded="false">Развернуть ▾</button>
+        </div>
+        <div class="detail" id="d-7">
+          <p>Выдача себя за сотрудника сервера для получения преимуществ карается баном и удалением всех неправомерных привилегий.</p>
+        </div>
+      </article>
+
+      <!-- Rule 8 -->
+      <article class="card" data-i="8">
+        <div class="head">
+          <div class="num">8</div>
+          <div class="meta">
+            <div class="ttl">Приватность и безопасность</div>
+            <div class="short">Не публикуйте личные данные — свои или чужие.</div>
+          </div>
+          <button class="toggle" aria-expanded="false">Развернуть ▾</button>
+        </div>
+        <div class="detail" id="d-8">
+          <p>Разглашение личной информации (телефоны, адреса, пароли) приведёт к немедленному удалению контента и возможному бану.</p>
+        </div>
+      </article>
+
+      <!-- Rule 9 -->
+      <article class="card" data-i="9">
+        <div class="head">
+          <div class="num">9</div>
+          <div class="meta">
+            <div class="ttl">Не создавайте лаги и разрушительные механизмы</div>
+            <div class="short">Фарм-механизмы, вызывающие лаги, запрещены.</div>
+          </div>
+          <button class="toggle" aria-expanded="false">Развернуть ▾</button>
+        </div>
+        <div class="detail" id="d-9">
+          <p>Массовые редстон-установки, циклические машины и конструкции, приводящие к падению производительности сервера — подлежат удалению; автор может быть наказан.</p>
+        </div>
+      </article>
+
+      <!-- Rule 10 -->
+      <article class="card" data-i="10">
+        <div class="head">
+          <div class="num">10</div>
+          <div class="meta">
+            <div class="ttl">Следуйте указаниям администрации</div>
+            <div class="short">Решения модераторов обязательны к исполнению.</div>
+          </div>
+          <button class="toggle" aria-expanded="false">Развернуть ▾</button>
+        </div>
+        <div class="detail" id="d-10">
+          <p>Если вы считаете решение несправедливым — подавайте апелляцию через официальный канал. Пока апелляция рассматривается, решение администрации действует.</p>
+        </div>
+      </article>
+
+    </section>
+
+    <footer>
+      <div class="footer-main">
+        <div class="creator">© Project_Olympus — Создатель: Wizixc</div>
+        <div class="rights">Все права защищены. Любая копировка правил запрещена.</div>
+      </div>
+      <div class="small">Обновлено: <!-- вставьте дату --> </div>
+    </footer>
+  </div>
+
+<script>
+  // accordion behavior
+  document.querySelectorAll('.card').forEach(card=>{
+    const btn = card.querySelector('.toggle');
+    const detail = card.querySelector('.detail');
+    btn.addEventListener('click', ()=>{
+      const open = detail.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open);
+      btn.textContent = open ? 'Свернуть ▴' : 'Развернуть ▾';
+      if(open) detail.style.maxHeight = detail.scrollHeight + 'px';
+      else detail.style.maxHeight = '0px';
+    });
+  });
+
+  // open first by default
+  (function(){
+    const first = document.querySelector('.card[data-i="1"]');
+    if(first){
+      const btn = first.querySelector('.toggle');
+      const detail = first.querySelector('.detail');
+      detail.classList.add('open');
+      detail.style.maxHeight = detail.scrollHeight + 'px';
+      btn.setAttribute('aria-expanded','true');
+      btn.textContent = 'Свернуть ▴';
+    }
+  })();
+
+  // top buttons actions
+  function showInfo(){
+    document.getElementById('info').style.display = 'block';
+    document.getElementById('rules-section').scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  function showRules(){
+    document.getElementById('info').style.display = 'none';
+    document.querySelector('.wrap').scrollIntoView({behavior:'smooth'});
+  }
+  function openTelegram(){
+    window.open('https://t.me/LVIV_EH','_blank');
+  }
+
+  // accessibility keyboard support
+  document.querySelectorAll('.toggle').forEach(btn=>{
+    btn.tabIndex = 0;
+    btn.addEventListener('keydown', e=>{
+      if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); btn.click(); }
+    });
+  });
+</script>
+</body>
+</html>
