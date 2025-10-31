@@ -334,7 +334,7 @@
     document.getElementById('rules-section').scrollIntoView({behavior:'smooth',block:'start'});
   }
   function openTelegram(){
-    window.open(https://t.me/Olympus_Project2025);
+    window.open(https:/t.me/Olympus_Project2025);
   }
 
   // accessibility keyboard support
