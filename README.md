@@ -32,7 +32,6 @@
       align-items:center;
       justify-content:center;
     }
-
     .container{
       width:100%;
       max-width:980px;
@@ -45,7 +44,6 @@
       overflow:hidden;
       backdrop-filter: blur(6px) saturate(120%);
     }
-
     header{
       display:flex;
       gap:16px;
@@ -61,17 +59,14 @@
       flex:0 0 64px;
     }
     .logo h1{font-size:18px;margin:0;color:var(--neon);text-shadow:0 0 10px rgba(183,255,58,0.35)}
-
     .title{
       display:flex;flex-direction:column;gap:4px;
     }
     .title .name{font-size:20px;color:var(--neon);letter-spacing:0.6px}
     .title .sub{font-size:12px;color:rgba(223,230,208,0.6)}
-
     .rules-wrap{
       display:grid;grid-template-columns: 1fr;gap:12px;
     }
-
     /* Accordion */
     .rule{
       background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.015));
@@ -89,7 +84,6 @@
     }
     .rule .titleline{font-weight:600;margin:0 0 6px 0}
     .rule .desc{color:rgba(223,230,208,0.85);margin:0}
-
     .rule button.toggle{
       all:unset;cursor:pointer;margin-left:auto;padding:8px;border-radius:10px;
       display:flex;align-items:center;gap:8px;font-weight:700;color:var(--neon);
